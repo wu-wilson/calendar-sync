@@ -140,6 +140,6 @@ app.delete("/delete/:id", (req: Request, res: Response) => {
 });
 
 // Listen on port 4000
-http.listen(4000, () => {
-  console.log("Server is listening on port 4000.");
+http.listen(process.env.PORT, () => {
+  console.log(`Server is listening on port ${process.env.PORT}.`);
 });
