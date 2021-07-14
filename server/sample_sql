@@ -2,7 +2,7 @@ CREATE DATABASE your_database_name;
 USE your_database_name;
 
 CREATE TABLE todo_items (
-	id VARCHAR(255),
+    id VARCHAR(255),
     input VARCHAR(255),
     created_on DATETIME,
     completed TINYINT,
