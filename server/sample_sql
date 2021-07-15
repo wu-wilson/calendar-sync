@@ -14,7 +14,7 @@ DROP TABLE todo_items;
 SELECT * FROM todo_items GROUP BY day_id ORDER BY created_on;
 
 CREATE TABLE users (
-	user_id VARCHAR(255),
+    user_id VARCHAR(255),
     created_on DATETIME,
     PRIMARY KEY(user_id)
 );
